@@ -8,7 +8,7 @@ import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import MovieModal from "../MovieModal/MovieModal";
 import type { Movie } from "../../types/movie";
 
-import "./App.css";
+import "./App.module.css"
 import { fetchMovies } from "../../services/movieService";
 
 export default function App() {
