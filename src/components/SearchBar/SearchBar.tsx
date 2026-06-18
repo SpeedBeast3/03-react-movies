@@ -12,6 +12,7 @@ export default function SearchBar( { onSubmit }: SearchBarProps){
 
         if(query === "") {
             toast.error("Please enter your search query.")
+            return;
         }
 
 
